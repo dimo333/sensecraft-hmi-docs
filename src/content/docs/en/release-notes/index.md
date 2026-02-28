@@ -2,6 +2,37 @@
 title: Release Notes
 description: SenseCraft HMI platform iteration records and version history
 ---
+
+## SenseCraft HMI v1.3.2 Release Notes
+Update time: 2026.02.28
+
+**🚀 New Features**
+- **Component Widgets:** hosts widgets of Calendar, Clock, List, Table, and Data Chart
+- **Data Chart Widgets:** New chart components supporting line, bar, candlestick, scatter, pie charts, and gauges — optimized for visualization of SenseCAP historical data, stock market, and your any other data
+- **HTML & RSS Redesign:** Now integrated as widgets within Canvas Editor's Data Widgets section
+  - HTML Widget supports both web URL embedding and local HTML file upload/rendering
+  - RSS Widget seamlessly embeds RSS feeds as an element into your canvas
+
+**🐛 Bugs Fixed & Improvements**
+- **Calendar Widget:** Optimized table styling and interaction logic
+- **Flip Clock Widget:**
+  - Preview and Apply to Device now reflect user's timezone customizations
+  - Fixed component disappearance issue after resizing
+- **Google Calendar Widget:** Fixed timezone display issue (addressed in v1.3.1)
+- **Auto-save Enhancement:** Designs are now automatically saved when users click Apply, Preview, Publish, or Private Share (located in Dev Tool) — no manual save needed
+- **My Page Updates:** Now displays all Canvas Designs by default (including all past Design, RSS, and Web HTML pages). User-uploaded Image pages can be accessed via the dropdown menu in the top-right corner
+- **SenseCraft HMI Homepage Featured:**
+  - Added social metrics (views, likes, no. of add-to-my page) to the Featured Banner
+  - New "Featured" Category showcasing all previously featured designs
+- **Device Support Updates:** Added the 13.3'' EINK Spectra full-color displays [reTerminal E1004](https://www.seeedstudio.com/reTerminal-E1004-p-6692.html) and [XIAO EE02 DIY ePaper Kit](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html) to homepage and device setup pages with product info and links
+
+**🌟 Get Involved**
+Try the new release and share your feedback! Report bugs, suggest new features, and help shape our roadmap on Discord: [https://discord.com/invite/Jj2CBXCjtf](https://discord.com/invite/Jj2CBXCjtf)
+
+
+
+---
+
 ## SenseCraft HMI v1.3.0 Release Notes
 Update time: 2026.01.30
 
