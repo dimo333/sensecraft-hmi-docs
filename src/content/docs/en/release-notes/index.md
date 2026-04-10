@@ -3,6 +3,66 @@ title: Release Notes
 description: SenseCraft HMI platform iteration records and version history
 ---
 
+
+## SenseCraft HMI v1.4.0 Release Notes
+Release time: 2026.04.10
+
+
+>This release was split across two weeks (last week + today). Sorry for no heads-up last time. Going forward, we're opening up our dev roadmap and collecting feedback in a public doc.
+
+
+### Designer Updates
+
+#### Weather Widget
+- New parameters: Date, Daily Average Temperature, Weather Code in Text, and many more
+- Unit settings: now you can choose which temperature/speed/rain sum units to display
+- Configuration UI redesigned: selected parameters now appear as grouped elements, with chart previews for numeric parameters. However, you can still stick to the original "Available Field" to select the parameters
+- Added 4 preset widgets: Current Weather, Compact Weather Card, 7-Day Forecast, 5-Day Forecast with Date
+
+#### Calendar Widget
+- Added "Week starts on" setting – choose Sunday or Monday
+
+#### Timezone Optimization
+- Timezone handling for Date/Time/Clock/Calendar/Day Counter Widgets switched from UTC to IANA-based (includes daylight saving natively)
+
+#### Other Improvements
+- Draw Widget moved from Top Toolbar to Basic Widgets, now supports stroke and pattern settings
+- Multi-component logic inside Groups improved
+- Inspector Panel heavily trimmed: only the most essential settings remain. Cleaner, less overwhelming
+
+### SenseCraft HMI Core
+- Sidebar secondary menus now expand on hover – more room for the canvas designer
+- Sidebar now has the SenseCraft HMI icon logo at the top
+- Homepage added a banner section for important news and updates
+
+### [Workspace](https://sensecraft.seeed.cc/hmi/workspace/page)
+- Workspace now shows Add New, My Page, My Playlist all on one page – cleaner entry points
+- My Page aggregates all Designs and uploaded Images. Edit icon in top-right enables batch actions (Apply to Device, Delete)
+- Clicking +New gives two options: create a Design from scratch, or upload photos to make an Album
+- Choosing +Design from scratch now guides you through naming your design and selecting the target device screen size
+
+### [Tools](https://sensecraft.seeed.cc/hmi/tools/firmware)
+- Firmware Flasher and Image Dithering tools got a UI refresh
+- Each tool now includes a description, when to use it, and helpful tips
+
+### New Hardware Support
+- Added support for [10.3" 16-grayscale ePaper Display reTerminal E1003](https://www.seeedstudio.com/reTerminal-E1003-p-6731.html)
+
+### Roadmap & Feedback Channels
+To better manage releases and collect community feedback, we're now sharing our development roadmap in a [public Google Doc called SenseCraft HMI Open Roadmap](https://docs.google.com/document/d/18xcOUtQjN6NweaFFQ7ZZEqQ3Hoaqs0XX7PX74HbDv4s/edit?usp=sharing).
+
+If you have feature requests or run into issues, you can:
+- Leave a comment directly in the Google Doc (we'll review regularly)
+- Or reach out on [SenseCraft HMI Discord channel](https://discord.com/invite/Jj2CBXCjtf) as we also pull feedback from there and update the doc
+
+Thanks as always for your support! 💚
+SenseCraft HMI Team
+
+
+
+
+---
+
 ## SenseCraft HMI v1.3.2 Release Notes
 Update time: 2026.02.28
 
@@ -66,8 +126,7 @@ This release transforms SenseCraft HMI into a collaborative platform. Now you ca
 
 **🌟 Get Involved**
 - Share Your Designs: Publish your best pages as public templates and inspire the community. Outstanding templates will be featured on the homepage banner!
-- Join the Conversation: Report bugs, share feedback, and help shape our [roadmap on Discord](https://discord.com/invite/Jj2CBXCjtf 
-).
+- Join the Conversation: Report bugs, share feedback, and help shape our [roadmap on Discord](https://discord.com/invite/Jj2CBXCjtf).
 
 
 
