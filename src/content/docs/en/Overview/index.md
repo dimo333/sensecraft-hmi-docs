@@ -53,7 +53,7 @@ SenseCraft HMI uses the unified SenseCraft account system. You can sign in with 
 
 ---
 ### Getting Started
-一个跳转链接
+[Quick Start Guide](/en/guides/getting_started/)
 
 ### Documentation Directory
 
